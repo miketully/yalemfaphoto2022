@@ -1,0 +1,289 @@
+
+
+        /* Page Styling */
+
+
+::-moz-selection { 
+    background: #2d343a;
+    color: #FFF;        
+  }
+
+::selection { 
+    background: #2d343a;
+    color: #FFF;
+
+ }
+
+
+@font-face {
+    font-family: "Fabric Serif Regular";
+    src:    url("fonts/FabricSerif-Regular.woff") format("woff"),
+            url("fonts/FabricSerif-Regular.woff2") format("woff2"),
+            url("fonts/FabricSerif-Regular.eot") format('embedded-opentype');
+}
+
+@font-face {
+    font-family: "Neue moderne Grotesk Normal";
+    src:    url("fonts/NeuemoderneGroteskNormal.woff") format("woff"),
+            url("fonts/NeuemoderneGroteskNormal.woff2") format("woff2"),
+            url("fonts/NeuemoderneGroteskNormal.eot") format('embedded-opentype');
+}
+
+  
+html, body {
+    background-color: #F0F8FF;
+    color: #000000;
+    font-family: "Fabric Serif Regular", times, serif;
+}
+
+
+        /* DIVs */
+
+
+.container {
+    font-family: "Fabric Serif Regular", times, serif;
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+.content {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    margin-top:23vh;
+    margin-bottom:18em;
+    }
+        
+
+.photo-container {
+    }
+    
+.photos {
+    max-width:70vw;
+    position: relative;
+    box-sizing: border-box;
+    display: block;
+    }
+
+img {
+    max-width:70vw;
+    margin-top: 16em;
+    }
+
+img.top {
+    max-width:70vw;
+    margin-top: 0em;
+    }
+
+.writing {
+    font-family: "Neue moderne Grotesk Normal", Arial, sans-serif;
+    font-size:24px;
+    display: block;    
+    text-align:left;
+    margin-top: 10em;
+    padding-bottom:10em;
+    }
+
+p { /*
+    margin:0;
+    padding:0;*/
+    }
+
+p.indent {
+    /*text-indent: 6em;*/
+    }
+    
+p.last {
+    /*text-indent: 6em;*/
+}
+
+.nav-names {
+    font-family: "Neue moderne Grotesk Normal", Arial, sans-serif;
+    font-size:24px;
+    position: fixed;     
+    text-align:left;  
+    bottom: 2vh; 
+    width: 97;
+    left:2vw;
+    }     
+
+.nav-names a {
+    font-family: "Neue moderne Grotesk Normal", Arial, sans-serif;
+    font-size:24px;
+    text-decoration: none;
+    color:#000;
+    }   
+
+.nav-names a:hover {
+    font-family: "Neue moderne Grotesk Normal", Arial, sans-serif;
+    font-size:24px;
+    color: #808080;
+    text-decoration: none;
+    }   
+
+.nav-names a:visited {
+    font-family: "Neue moderne Grotesk Normal", Arial, sans-serif;
+    font-size:24px;
+    color: #000;
+    text-decoration: none;
+    }   
+    
+
+.small-num {
+    font-family: "Neue moderne Grotesk Normal", Arial, sans-serif;
+    font-size:14px;
+    }  
+
+.en-dash {
+    font-family: Arial, sans-serif;
+    font-size:24px;
+    }  
+
+.romance {
+    font-family: "Fabric Serif Regular", times, serif;
+    font-size:48px;
+    letter-spacing: .15rem;
+    position: fixed;     
+    text-align:left;  
+    left:2vw;
+    bottom: 11vh; 
+    width: 100%;
+    }   
+
+.action {
+    font-family: "Fabric Serif Regular", times, serif;
+    font-size:48px;
+    letter-spacing: .15rem;
+    position: fixed;     
+    text-align:center;  
+    bottom: 11vh; 
+    width: 100%;
+    }   
+
+.mystery {
+    font-family: "Fabric Serif Regular", times, serif;
+    font-size:48px;
+    letter-spacing: .15rem;
+    position: fixed;     
+    text-align:right;
+    right:2vw;  
+    bottom: 11vh; 
+    width: 100%;
+    }   
+   
+
+.mobile-description {
+    display:none;
+    }  
+
+
+        /* Text Styling */
+
+
+p.caption {
+    font-family: "Neue moderne Grotesk Normal", Arial, sans-serif;
+    font-size:.75em;
+    color: #000;
+}
+
+
+        /* Links */
+
+
+
+
+
+
+
+        /* Shapes  */
+
+ .shape{
+ 	max-width:1em;
+ 	max-height:1em;
+ 	padding-left:3px;
+ 	padding-right:2px;
+ }
+
+
+
+
+
+
+
+
+        /* For Mobile: */
+
+ @media only screen and (max-width: 950px) {
+
+
+
+    .container {
+
+        display: none;
+        }
+
+    .photo-container {
+        display:none;
+    }     
+
+    .mobile-description {
+            display: block;
+            width: 100%;
+            font-family: "Neue moderne Grotesk Normal", Arial, sans-serif;
+            font-size:14px;
+        }  
+
+    .mobile-title {
+        font-family: "Fabric Serif Regular", times, serif;
+        font-size:14px;
+        text-align:justify;
+
+        }  
+
+    .en-dash {
+        font-family: Arial, sans-serif;
+        font-size:11px;
+        }  
+
+    .small-num {
+        font-family: "Neue moderne Grotesk Normal", Arial, sans-serif;
+        font-size:8px;
+        } 
+
+            a {
+                font-family: "Neue moderne Grotesk Normal", Arial, sans-serif;
+                font-size:14px;
+                text-decoration: none;
+                color:#000;
+                }   
+            
+            a:hover {
+                font-family: "Neue moderne Grotesk Normal", Arial, sans-serif;
+                font-size:14px;
+                color: #808080;
+                text-decoration: none;
+                }   
+            
+            a:visited {
+                font-family: "Neue moderne Grotesk Normal", Arial, sans-serif;
+                font-size:14px;
+                color: #000;
+                text-decoration: none;
+                }   
+                
+
+        .romance {
+            display:none;
+            }   
+            .action {
+                display:none;
+                }  
+                .mystery {
+                    display:none;
+                    }  
+                    .nav-names{
+                        display:none;
+                    }
+}

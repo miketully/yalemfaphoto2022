@@ -259,12 +259,17 @@ sup, sub {
 
         .writing {
             font-family: "Neue moderne Grotesk Normal", Arial, sans-serif;
-            font-size:22px;
+            font-size:20px;
             display: block;    
             text-align:left;
             margin-top: 6em;
             padding-bottom:6em;
             }
+
+            p.quote {
+                padding-left: 1.5em;
+                padding-right: 1.5em;
+                }
     
 
     .mobile-description {

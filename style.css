@@ -58,6 +58,7 @@ html, body {
         
 
 .photo-container {
+    margin-top:-10vh;
     }
     
 .photos {
@@ -94,6 +95,11 @@ p { /*
 p.indent {
     /*text-indent: 6em;*/
     }
+
+p.quote {
+    padding-left: 4em;
+    padding-right: 4em;
+    }
     
 p.last {
     /*text-indent: 6em;*/
@@ -123,12 +129,6 @@ p.last {
     text-decoration: none;
     }   
 
-.nav-names a:visited {
-    font-family: "Neue moderne Grotesk Normal", Arial, sans-serif;
-    font-size:24px;
-    color: #000;
-    text-decoration: none;
-    }   
     
 
 .small-num {
@@ -188,6 +188,17 @@ p.caption {
     color: #000;
 }
 
+sup, sub {
+    vertical-align: baseline;
+    position: relative;
+    top: -0.6em;
+    font-size:.6em;
+  }
+
+  sub { 
+    top: 0.6em; 
+  }
+
 
         /* Links */
 
@@ -226,7 +237,35 @@ p.caption {
 
     .photo-container {
         display:none;
-    }     
+    }   
+    
+    .photos {
+        max-width:90vw;
+        position: relative;
+        box-sizing: border-box;
+        display: block;
+        }
+    
+    img {
+        max-width:90vw;
+        margin-top: 8em;
+        }
+    
+    img.top {
+        max-width:90vw;
+        margin-top: 0em;
+        }
+
+
+        .writing {
+            font-family: "Neue moderne Grotesk Normal", Arial, sans-serif;
+            font-size:22px;
+            display: block;    
+            text-align:left;
+            margin-top: 6em;
+            padding-bottom:6em;
+            }
+    
 
     .mobile-description {
             display: block;
@@ -265,13 +304,7 @@ p.caption {
                 color: #808080;
                 text-decoration: none;
                 }   
-            
-            a:visited {
-                font-family: "Neue moderne Grotesk Normal", Arial, sans-serif;
-                font-size:14px;
-                color: #000;
-                text-decoration: none;
-                }   
+
                 
 
         .romance {

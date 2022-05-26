@@ -304,13 +304,13 @@ sup, sub {
             display: block;
             width: 100%;
             font-family: "Neue moderne Grotesk Normal", Arial, sans-serif;
-            font-size:14px;
+            font-size:1em;
         }  
 
     .mobile-title {
         font-family: "Fabric Serif Regular", times, serif;
-        font-size:14px;
-        text-align:justify;
+        font-size:1em;
+        text-align:center;
 
         }  
 
@@ -321,19 +321,19 @@ sup, sub {
 
     .small-num {
         font-family: "Neue moderne Grotesk Normal", Arial, sans-serif;
-        font-size:8px;
+        font-size:.6em;
         } 
 
             a {
                 font-family: "Neue moderne Grotesk Normal", Arial, sans-serif;
-                font-size:14px;
+                font-size:1em;
                 text-decoration: none;
                 color:#000;
                 }   
             
             a:hover {
                 font-family: "Neue moderne Grotesk Normal", Arial, sans-serif;
-                font-size:14px;
+                font-size:1em;
                 color: #808080;
                 text-decoration: none;
                 }   

@@ -100,10 +100,38 @@ p.quote {
     padding-left: 4em;
     padding-right: 4em;
     }
+
+p.author {
+    font-style: italic;
+    }
     
 p.last {
     /*text-indent: 6em;*/
 }
+
+p.home {
+    margin-top:10em;
+    text-align:center;
+    text-transform:capitalize;
+    font-size:.6em;
+    letter-spacing: .1em;
+    }
+
+    p.home a {
+        font-family: "Neue moderne Grotesk Normal", Arial, sans-serif;
+        text-align:center;
+        text-transform:capitalize;
+        color:#000;
+        text-decoration: none;
+        }
+
+    p.home a:hover {
+        font-family: "Neue moderne Grotesk Normal", Arial, sans-serif;
+        text-align:center;
+        text-transform:capitalize;
+        color:#808080;
+        text-decoration: none;
+        }
 
 .nav-names {
     font-family: "Neue moderne Grotesk Normal", Arial, sans-serif;

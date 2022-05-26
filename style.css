@@ -287,7 +287,7 @@ sup, sub {
 
         .writing {
             font-family: "Neue moderne Grotesk Normal", Arial, sans-serif;
-            font-size:20px;
+            font-size:18px;
             display: block;    
             text-align:left;
             margin-top: 6em;
@@ -298,25 +298,50 @@ sup, sub {
                 padding-left: 2em;
                 padding-right: 2em;
                 }
-    
+
+                p.home {
+                    margin-top:10em;
+                    text-align:center;
+                    text-transform:capitalize;
+                    font-size:.6em;
+                    letter-spacing: .1em;
+                    }
+                
+                    p.home a {
+                        font-family: "Neue moderne Grotesk Normal", Arial, sans-serif;
+                        text-align:center;
+                        text-transform:capitalize;
+                        color:#000;
+                        text-decoration: none;
+                        font-size:1.1em;
+                        }
+                
+                    p.home a:hover {
+                        font-family: "Neue moderne Grotesk Normal", Arial, sans-serif;
+                        text-align:center;
+                        text-transform:capitalize;
+                        color:#808080;
+                        text-decoration: none;
+                        }
+                
 
     .mobile-description {
             display: block;
             width: 100%;
             font-family: "Neue moderne Grotesk Normal", Arial, sans-serif;
-            font-size:1em;
+            font-size:18px;
         }  
 
     .mobile-title {
         font-family: "Fabric Serif Regular", times, serif;
-        font-size:1em;
+        font-size:18px;
         text-align:center;
 
         }  
 
     .en-dash {
         font-family: Arial, sans-serif;
-        font-size:11px;
+        font-size:1em;
         }  
 
     .small-num {
@@ -326,14 +351,14 @@ sup, sub {
 
             a {
                 font-family: "Neue moderne Grotesk Normal", Arial, sans-serif;
-                font-size:1em;
+                font-size:18px;
                 text-decoration: none;
                 color:#000;
                 }   
             
             a:hover {
                 font-family: "Neue moderne Grotesk Normal", Arial, sans-serif;
-                font-size:1em;
+                font-size:18px;
                 color: #808080;
                 text-decoration: none;
                 }   
